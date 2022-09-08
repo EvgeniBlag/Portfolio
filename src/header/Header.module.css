@@ -1,0 +1,7 @@
+.header {
+   display: flex;
+   height: 80px;
+   background-color: aqua;
+   justify-content: end;
+   align-items: center;
+}
