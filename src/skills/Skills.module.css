@@ -11,9 +11,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: flex-start;
+    /* flex-wrap: wrap; */
 }
-
 
 .title {
   color: red;
@@ -21,5 +20,8 @@
 
 .skills {
     border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
 }
