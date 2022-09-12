@@ -1,6 +1,8 @@
 import React from 'react';
+import Contacts from './contacts/Contacts';
 import Header from './header/Header';
 import Main from './main/Main';
+import MyProjects from './myProjects/MyProjects';
 import Skills from './skills/Skills';
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
    <Header/>
    <Main/>
    <Skills/>
+   <MyProjects/>
+   <Contacts/>
     </div>
   );
 }

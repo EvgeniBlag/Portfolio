@@ -1,0 +1,48 @@
+.project {
+    width: 250px;
+    background-color: rgb(212, 113, 113);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.img_project {
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.button_project {
+    margin: 10px; 
+} 
+
+
+
+
+
+
+
+
+
+
+.skill {
+    width: 250px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: blueviolet;
+}
+
+.description {
+     word-break: break-all; 
+}
