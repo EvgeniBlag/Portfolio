@@ -14,7 +14,7 @@ function Contacts() {
             <form className={s.myContacts}>
             <input className={s.input1}/>
             <input className={s.input2}/>
-            <textarea className={s.textarea}/>
+            <textarea className={s.text}/>
             </form>
 
             <button>Enviar</button>

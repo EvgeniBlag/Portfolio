@@ -1,0 +1,53 @@
+.myFooterBlock {
+    height: 180px;
+    background-color:#f1b2bc;
+}
+
+.myFooterContainer {
+    border: 1px solid black;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myFooterName {
+    color:blueviolet
+}
+
+.items {
+    height: 40px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.item1 {
+    background-color: rgb(117, 77, 24);
+    display: flex;
+    align-items: center;
+    color: aliceblue
+}
+.item2 {
+    background-color: rgb(160, 71, 187);
+    display: flex;
+    align-items: center;
+}
+
+.item3 {
+    background-color: rgb(104, 173, 72);
+    display: flex;
+    align-items: center;
+}
+
+.item4 {
+    background-color: rgb(223, 31, 95);
+    display: flex;
+    align-items: center;
+}
+.copyright {
+    margin-top: 45px;
+}
