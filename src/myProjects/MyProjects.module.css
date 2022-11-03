@@ -1,6 +1,6 @@
  .myProjectsBlock {
     min-height: 100vh;
-    background-color:#ade494;
+    background-color:#1f1f20;
 }
 .myProjectsContainer {
     border: 1px solid black;
@@ -12,8 +12,23 @@
     flex-direction: column;
 }
 .title{
-  color:blue;
-  font-family: 'Open Sans', sans-serif; 
+  color:#fff;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  position: relative;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    background:#4e93eb ;
+    width:55px ;
+    height: 1px;
+    bottom: 15px;
+    margin-left: 100px;
 }
 
 .myProjects{
