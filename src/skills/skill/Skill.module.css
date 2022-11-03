@@ -9,12 +9,14 @@
 }
 
 .icon {
+    margin-top: 20px;
     height: 60px;
     width: 60px;
     background-color: blueviolet;
 }
 
 .description {
+     margin:30px;
      word-break: break-all; 
      font-family: 'Open Sans', sans-serif; 
      line-height: 25px;

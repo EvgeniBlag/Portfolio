@@ -59,3 +59,12 @@
     font-family: 'Open Sans', sans-serif;
     margin: 20px;
 }
+
+@media screen and (max-width:280px){
+    .myFooterContainer{
+        padding: 10px;
+    }
+    .title{
+        font-size: 20px;
+    }
+}

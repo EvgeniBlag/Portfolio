@@ -9,7 +9,7 @@ function Footer() {
          <div className={s.myFooterContainer}>
 
                 <div className={s.myFooterName}>
-                <h2>Evgeny Blagodarnyy</h2>
+                <h2 className={s.title}>Evgeny Blagodarnyy</h2>
                 </div>
 
                 <div className={s.items}>
