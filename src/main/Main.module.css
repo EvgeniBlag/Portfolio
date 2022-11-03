@@ -6,6 +6,7 @@
 .text {
     width: 300px;
     background-color: rgb(25, 95, 72);
+    padding: 10px; 
 }
 
 .foto {
@@ -13,3 +14,33 @@
     width: 300px;
     background-color: rgb(34, 5, 30);
 }
+.p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+    font-weight: 400px;
+}
+
+.h1{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.span{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+    font-weight: 400px;
+}
+
+ @media  screen and (max-width:280px) {
+    .text {
+        width: 194px;
+        background-color: rgb(25, 95, 72);
+        padding: 10px; 
+    }
+    .h1{
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+    
+ }
+

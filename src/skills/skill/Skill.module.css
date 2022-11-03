@@ -16,4 +16,46 @@
 
 .description {
      word-break: break-all; 
+     font-family: 'Open Sans', sans-serif; 
+     line-height: 25px;
+     font-weight: 400px;
+}
+.title{
+    font-family: 'Open Sans', sans-serif; 
+}
+
+@media screen and (max-width:640px){
+    .skill{
+        margin-top: 20px;
+    }
+    .description{
+        margin:30px;
+    }
+    .icon{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:820px){
+    .skill{
+        margin-top: 20px;
+    }
+    .description{
+        margin:30px;
+    }
+    .icon{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:912px){
+     .skill{
+        margin-block-end: 20px;
+    } 
+    .description{
+        margin:30px;
+    }
+    .icon{
+        margin-top: 20px;
+    }
 }

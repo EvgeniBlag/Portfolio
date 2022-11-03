@@ -12,7 +12,8 @@
     flex-direction: column;
 }
 .title{
-  color:blue
+  color:blue;
+  font-family: 'Open Sans', sans-serif; 
 }
 
 .myProjects{
@@ -22,35 +23,16 @@
     width: 100%;
     flex-wrap: wrap;
 }
- 
- 
- 
- 
- 
- 
- /* .skillsBlock{
-    height: 100vh;
-    background-color:#d4ffc0;
-} */
 
-/* .skillsContainer {
-    border: 1px solid black;
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-} */
-
-/* .title {
-  color: red;
-} */
-
-/* .skills {
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    flex-wrap: wrap;
- }    */
+@media screen and (max-width: 640px){
+    .myProjects{
+        justify-content: center;
+        margin-block-end: 30px;
+        border: none;
+    }
+}
+ 
+ 
+ 
+ 
+ 

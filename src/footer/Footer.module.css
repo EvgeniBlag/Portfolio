@@ -14,7 +14,8 @@
 }
 
 .myFooterName {
-    color:blueviolet
+    color:blueviolet;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .items {
@@ -30,25 +31,31 @@
     background-color: rgb(117, 77, 24);
     display: flex;
     align-items: center;
-    color: aliceblue
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
 }
 .item2 {
     background-color: rgb(160, 71, 187);
     display: flex;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .item3 {
     background-color: rgb(104, 173, 72);
     display: flex;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .item4 {
     background-color: rgb(223, 31, 95);
     display: flex;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 }
 .copyright {
     margin-top: 45px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
 }

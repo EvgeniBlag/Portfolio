@@ -4,3 +4,23 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.a {
+    color:black;
+    font-family: 'Open Sans', sans-serif; 
+    line-height: 32px;
+    font-weight: 400px;
+}
+
+@media screen and (max-width:280px){
+    .nav{
+        flex-wrap: wrap;
+        margin: 0px,30px; 
+    }
+    .a {
+        color:black;
+        font-family: 'Open Sans', sans-serif; 
+         line-height: 32px; 
+    }
+
+ }

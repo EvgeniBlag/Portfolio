@@ -15,9 +15,10 @@ function Contacts() {
             <input className={s.input1}/>
             <input className={s.input2}/>
             <textarea className={s.text}/>
+            
             </form>
 
-            <button>Enviar</button>
+             <button type='submit' className={s.button}>Enviar</button> 
           </div>
         </div>
     );

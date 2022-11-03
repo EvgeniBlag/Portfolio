@@ -14,7 +14,9 @@
 }
 
 .title {
-  color: red;
+    font-family: 'Open Sans', sans-serif; 
+    text-transform: uppercase;
+    font-weight: 900;
 }
 
 .skills {
@@ -24,3 +26,17 @@
     width: 100%;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width:640px){
+    .skills{
+        justify-content: center;
+        margin-block-end: 30px;
+        border:none
+    } 
+}
+
+ @media screen and (max-width:820px){
+    .skills{
+        border:none
+    } 
+} 
