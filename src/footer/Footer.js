@@ -1,4 +1,5 @@
 import React from 'react';
+import { Title } from '../common/components/title/Title';
 import s from'./Footer.module.css';
 
 
@@ -9,7 +10,10 @@ function Footer() {
          <div className={s.myFooterContainer}>
 
                 <div className={s.myFooterName}>
-                <h2 className={s.title}>Evgeny Blagodarnyy</h2>
+
+                
+                <Title text={'Evgeny Blagodarnyy'}/>
+
                 </div>
 
                 <div className={s.items}>

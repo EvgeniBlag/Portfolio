@@ -1,4 +1,5 @@
 import React from 'react';
+import { Title } from '../common/components/title/Title';
 import Skill from './skill/Skill';
 import s from'./Skills.module.css';
 
@@ -10,7 +11,9 @@ function Skills() {
           <div className={s.skillsContainer}>
 
 
-            <h2 className={s.title}>Skills</h2>
+            
+            <Title text={'Skills'}/>
+
             <div className={s.skills}>
                <Skill title={'Js'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eaque voluptatum culpa excepturi ad praesentium quia alias magnam '}/>
                <Skill title={'Css'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eaque voluptatum culpa excepturi ad praesentium quia alias magnam '}/>

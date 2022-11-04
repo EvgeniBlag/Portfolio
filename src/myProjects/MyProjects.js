@@ -1,4 +1,5 @@
 import React from 'react';
+import { Title } from '../common/components/title/Title';
 import MyProject from './myProject/MyProject';
 import s from'./MyProjects.module.css';
 
@@ -9,11 +10,8 @@ function MyProjects() {
         <div className={s.myProjectsBlock}>
           <div className={s.myProjectsContainer}>
 
-
-          <div className={s.title}>
-            <h2 >MyProjects</h2>
-          </div>
-
+         <Title text={'MyProjects'}/>
+        
             <div className={s.myProjects}>
             
              <MyProject titleProject={'Name'} descriptionProject={'Lorem ipsum, dolor sit amet consectetur adipisicing elit.'}/>
