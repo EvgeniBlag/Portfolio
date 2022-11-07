@@ -6,8 +6,8 @@ import s from'./MyProject.module.css';
 function MyProject(props) {
     return (
         <div className={s.project}>
-
-            <img className={s.img_project} src='https://i.pinimg.com/originals/ef/99/2c/ef992ce657109dded8d03c782dab87c5.png' alt='Image of Project' />
+           
+            <div  style={props.style} className={s.img_project} />
         
             <button className={s.button_project}>Watch</button>
             
@@ -20,3 +20,5 @@ function MyProject(props) {
 }
 
 export default MyProject;
+//src='https://i.pinimg.com/originals/ef/99/2c/ef992ce657109dded8d03c782dab87c5.png' alt='Image of Project'
+//className={s.img_project}
