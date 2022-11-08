@@ -27,4 +27,10 @@
       margin: 0px,30px;
    }
 }
+
+@media screen and (max-width:414px){
+   .header {
+      margin-right: 0px;
+   }
+}
  

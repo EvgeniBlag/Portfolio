@@ -34,6 +34,14 @@
         border: none; 
     }
 }
+@media screen and (max-width:1140px){
+    .myProjects{
+        justify-content: center;
+      margin: 20px;
+   }
+}
+
+
  
  
  

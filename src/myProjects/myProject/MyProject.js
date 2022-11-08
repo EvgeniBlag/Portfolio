@@ -6,11 +6,11 @@ import s from'./MyProject.module.css';
 function MyProject(props) {
     return (
         <div className={s.project}>
-           
-            <div  style={props.style} className={s.img_project} />
+
+            <div style={props.style} className={s.img_project} >
+                <button className={s.button_project}>Watch</button>
+            </div>
         
-            <button className={s.button_project}>Watch</button>
-            
                 <h3 className={s.title}>{props.titleProject}</h3>
                 <span className={s.description_project}>{props.descriptionProject}</span>
          

@@ -2,8 +2,7 @@
     min-height: 100vh;
     background-color:#72434b;
 }
-.myContactosContainer {
-    border: 1px solid black;
+.myContactosContainer { 
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -40,6 +39,8 @@ margin: 10px;
     margin-block-end: 30px;
     font-family: 'Open Sans', sans-serif;
 }
+
+
 
 
 

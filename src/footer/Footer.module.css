@@ -4,7 +4,6 @@
 }
 
 .myFooterContainer {
-    border: 1px solid black;
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -13,10 +12,10 @@
     flex-direction: column;
 }
 
-.myFooterName {
+/* .myFooterName {
     color:blueviolet;
     font-family: 'Open Sans', sans-serif;
-}
+} */
 
 .items {
     height: 40px;
@@ -59,16 +58,62 @@
     font-family: 'Open Sans', sans-serif;
     margin: 20px;
 }
+.title{
+    color:#fff;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 615;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
+}
 
 @media screen and (max-width:280px){
-    .myFooterContainer{
-        padding: 10px;
-    }
+   
     .title{
         font-size: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .copyright{
+        margin: 10px;
+    }
+}
+
+ @media screen and (max-width:412px){
+    .title{
+        margin: 15px;
+        font-size:20px;
+    }
+    .copyright{
+        margin: 10px;
+    }
+} 
+
+@media screen and (max-width:920px){
+    .title{
+        margin: 15px;
+    }
+    .copyright{
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:540px){
+    .title{
+        margin: 15px;
+        font-size: 30px;
+    }
+    .copyright{
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:1280px){
+    .copyright{
+        margin: 5px;
     }
 }
